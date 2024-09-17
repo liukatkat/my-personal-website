@@ -42,6 +42,6 @@ export const siteConfig = {
   links: {
     github: "https://github.com/liukatkat",
     linkedin: "https://www.linkedin.com/in/liukatkat/",
-    instagram: "https://www.instagram.com/liukatkat/"
+    instagram: "https://www.instagram.com/liukatkat/",
   },
 };

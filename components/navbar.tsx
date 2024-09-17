@@ -14,11 +14,7 @@ import clsx from "clsx";
 
 import { siteConfig } from "@/config/site";
 import { ThemeSwitch } from "@/components/theme-switch";
-import {
-  GithubIcon,
-  Logo,
-  LinkedInIcon,
-} from "@/components/icons";
+import { GithubIcon, Logo, LinkedInIcon } from "@/components/icons";
 
 export const Navbar = () => {
   return (
@@ -53,7 +49,11 @@ export const Navbar = () => {
         justify="end"
       >
         <NavbarItem className="hidden sm:flex gap-3">
-          <Link isExternal aria-label="Twitter" href={siteConfig.links.linkedin}>
+          <Link
+            isExternal
+            aria-label="Twitter"
+            href={siteConfig.links.linkedin}
+          >
             <LinkedInIcon className="text-default-500" />
           </Link>
           <Link isExternal aria-label="Github" href={siteConfig.links.github}>
