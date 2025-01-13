@@ -20,7 +20,7 @@ const projects = [
     link: "https://www.figma.com/proto/Q64P8RIlMl1qc3LtTpX1sk/coq?node-id=3942-29628&p=f&t=lS7zexQTiFRuitZT-1&scaling=min-zoom&content-scaling=fixed&page-id=3942%3A4539&starting-point-node-id=3942%3A29628&show-proto-sidebar=1",
   },
   {
-    name: "semgrep (path sensitivity and dashboard widget)",
+    name: "semgrep (path sensitivity and widget)",
     description:
       "added path sensitivity to semgrep and created a dashboard widget to display branch information.",
     button: "blog",
@@ -84,7 +84,7 @@ export default function ProjectPage() {
             <Card
               key={index}
               isFooterBlurred
-              className="w-full h-[250px] col-span-12 sm:col-span-6 lg:col-span-4"
+              className="w-full min-h-[320px] col-span-10 sm:col-span-6 lg:col-span-4 mx-auto"
             >
               <CardHeader className="absolute z-10 top-1 flex-col items-start">
                 <p className="text-tiny font-bold">project</p>
