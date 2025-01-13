@@ -26,7 +26,7 @@ export default function Home() {
           />
           <Image
             alt="dark mode version of an abstract illustration of a flying person with a graduation hat."
-            className="hidden dark:block"
+            className="mb-4 hidden dark:block"
             src="/home_dark.png"
             width={250}
           />
